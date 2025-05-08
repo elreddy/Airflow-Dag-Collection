@@ -7,7 +7,6 @@ from airflow.operators.bash_operator import BashOperator
 default_arguments={
     'owner': 'Lokesh',
     'start_date': '2025-01-31',
-    'email': ['abc@gmail.com'],
     'email_on_failure': True,
     'email_on_retry': True,
     'retries': 1,
@@ -19,7 +18,7 @@ dag= DAG(
     "ETL_Toll_data",
     schedule_interval= timedelta(days=1),
     default_args= default_arguments,
-    description='Apache Airflow Assignment',
+    description='Apache Airflow Dags',
 )
 
 # defining tasks
