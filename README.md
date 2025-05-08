@@ -1,6 +1,6 @@
 # Apache Airflow ETL Pipelines
 
-A collection of modular **Apache Airflow DAGs** demonstrating different ETL (Extract, Transform, Load) workflows using a variety of Airflow operators. This repository is built to showcase my hands-on expertise in orchestration, automation, and data engineering best practices.
+A collection of modular **Apache Airflow DAGs** demonstrating different ETL (Extract, Transform, Load) workflows using a variety of Airflow operators.
 
 ---
 
@@ -17,7 +17,7 @@ This project serves as a personal portfolio to:
 
 | DAG Name              | Description                                                  | Operators Used                      |
 |----------------------|--------------------------------------------------------------|-------------------------------------|
-| `etl_toll_data_dag`  | Extracts toll data from multiple file formats, consolidates, and transforms it. | `BashOperator`                      |
+| `ETL_toll_data`  | Extracts toll data from multiple file formats, consolidates, and transforms it. | `BashOperator`                      |
 
 > More DAGs will be added progressively as I experiment with different patterns and operators.
 
@@ -28,6 +28,6 @@ This project serves as a personal portfolio to:
 - **Apache Airflow**
 - **Python**
 - **Bash / Shell Scripting**
-- **Linux CLI Tools** (`awk`, `cut`, `paste`, `tar`)
+- **Linux CLI Tools**
 
 ---
