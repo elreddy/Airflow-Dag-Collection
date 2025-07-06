@@ -18,6 +18,7 @@ This project serves as a personal portfolio to:
 | DAG Name              | Description                                                  | Operators Used                      |
 |----------------------|--------------------------------------------------------------|-------------------------------------|
 | `ETL_toll_data`  | Extracts toll data from multiple file formats, consolidates, and transforms it. | `BashOperator`                      |
+| `ETL_extract_to_staging`| It extracts transactional data from a PostgreSQL database, uses Spark to transform them into Parquet files, and writes them to Hadoop HDFS storage.| `SparkSubmitOperator`
 
 > More DAGs will be added progressively as I experiment with different patterns and operators.
 
